@@ -1,0 +1,28 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local osu! beatmaps, dataset tensors, model checkpoints, and generated outputs
+maps/
+data/
+checkpoints/
+out/
+*.osu
+*.osr
+*.osz
+*.pt
+*.pth
+
+# Tooling / IDE
+.vscode/
+.idea/
+graphify-out/

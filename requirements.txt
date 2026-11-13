@@ -1,0 +1,6 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+numpy>=1.26
+rosu-pp-py>=1.0
+torch>=2.6
+osrparse>=6.0
+pytest>=8.0
